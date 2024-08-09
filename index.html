@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Snapchat-215182738logo.jpg" alt="" class="logo-img">
+            </div>
+            <div class="pages">
+                <ul class="pages-list">
+                    <li class="pages-list-items"><a href="#about-anchor">About me</a></li>
+                    <li class="pages-list-items"><a href="#education-anchor">Education</a></li>
+                    <li class="pages-list-items"><a href="#contact-anchor">Connect</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <h1 class="contact-me" id="contact-anchor">Lets connect : <a href="mailto:rij76002@gmail.come" target="_blank"
+                class="mail"> <i class="fa-solid fa-at mail-icon"></i> </a>
+            <a href="https://discordapp.com/users/1254346835087200256" target="_blank" class="discord"><i
+                    class="fa-brands fa-discord discord-icon"></i> </a>
+        </h1>
+
+        <div class="page-contact">
+            <div class="contact-img-section">
+                <h1 class="img-header">Wanna work with this kid?
+                    He is saying hi, pls do not mind the weird animation.  🥴</h1>
+                <img class="kid-img" src="IMG-20230220-WA0427kidimage.jpg" alt="">
+            </div>
+
+            <div class="contact-text-section">
+                <h1 class="contact-text-section-h3">If you are here, Most probably you are into Computer science or Web
+                    development.</h1>
+                <p class="me-text">I am stuck mannnn!!!!!</p>
+                <p class="me-text">If you've got a little bit of experience in web development field and you need
+                    assistance i can provide that. In the process i'll also learn many new stuffs.🧠 </p>
+                <p class="me-text">Lets connect if you are also in web development.🤜🤛</p>
+            </div>
+
+        </div>
+
+        <h1 id="about-anchor" class="about-me">About me</h1>
+
+        <div class="page-about">
+            <div class="about-header">
+                <h2 class="about-h1">According to me 🤔 , There are 3 phases of my life.</h2>
+            </div>
+
+            <div class="phase-football">
+                <p class="football">I use to train to become a professional footballer.(That didn't work out 😣)</p>
+            </div>
+
+            <div class="phase-vella">
+                <p class="vella">Throughout my high-school days i was doing nothing (वेल्ला) . I had fun in those days
+                    though. 🤪</p>
+            </div>
+
+            <div class="phase-motivated">
+                <p class="motivated">Right now ,i am way too motivated to do something in life.I am trying hard to
+                    figure out something to do. If you are also like me lets connect on <a
+                        href="#contact-anchor">socials</a> .</p>
+            </div>
+        </div>
+                <h1 id="education-anchor" class="education-header">Education</h1>
+        <div class="page-education">
+            <p class="edu">I am currently in 2nd year of my course, Bachelor of Computer Applications. I am pursuing it at University of Science and Technology, Meghalaya.  🏫 </p>
+            <a href="#contact-anchor" class="connect-d">Lets connect, developers!</a>
+        </div>
+    </main>
+</body>
+
+<script>
+    window.addEventListener("load", function() {
+        if (window.location.hash) {
+            window.location.hash = ""; // Clear the hash in the URL
+            window.scrollTo(0, 0); // Scroll to the top
+        }
+    });
+</script>
+
+</html>
